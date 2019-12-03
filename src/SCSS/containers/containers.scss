@@ -1,0 +1,15 @@
+.container-standard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $grey-light;
+}
+
+.container-count{
+  position: fixed;
+  left:30px;
+  font-size: 2rem;
+  bottom:30px;
+  color: purple;
+}

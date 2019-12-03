@@ -1,0 +1,21 @@
+$light-blue: #94D6FF;
+$light-green: #8DD3BD;
+$light-yellow: #FFE68E;
+
+$grey-light: #e5e5e5;
+
+.green {
+  background: rgba(130,200,160,1);
+  background: -moz-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+  background: -o-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+  background: -ms-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+  background: linear-gradient(to bottom, rgba(130,200,160,1) 0%, rgba(124, 185, 149, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82c8a0', endColorstr='#82c79e', GradientType=0 );
+}
+.green-color{
+  color: $light-green;
+}
+.green-bg{
+  background-color: $light-green;
+}
